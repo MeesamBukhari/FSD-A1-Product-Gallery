@@ -70,8 +70,9 @@ This project is a **Product Gallery webpage** for an e-commerce store, developed
 - Add animations and transitions for smoother UI.
 
 ## 📚 Author
+
 **Meesam Bukhari**  
-Front-End Web Developer | Level 2 Seller @ Fiverr  
+Front-End Web Developer | [Level 2 Seller @ Fiverr](https://www.fiverr.com/imeesambukhari)  
 [GitHub Profile](https://github.com/MeesamBukhari)
 
 ---
