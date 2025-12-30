@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery - E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">🛒 ShopHub</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search products...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Container with Filters -->
+    <div class="main-wrapper">
+        <!-- Hidden Radio Buttons for Filtering -->
+        <input type="radio" name="category" id="all" class="filter-input" checked>
+        <input type="radio" name="category" id="electronics" class="filter-input">
+        <input type="radio" name="category" id="clothing" class="filter-input">
+        <input type="radio" name="category" id="books" class="filter-input">
+
+        <div class="container">
+            <!-- Filter Sidebar -->
+            <aside class="sidebar">
+                <h3 class="filter-title">Filter</h3>
+                <div class="filter-group">
+                    <label for="all" class="filter-label">All Products</label>
+                    <label for="electronics" class="filter-label">Electronics</label>
+                    <label for="clothing" class="filter-label">Clothing</label>
+                    <label for="books" class="filter-label">Books</label>
+                </div>
+            </aside>
+
+            <!-- Products Container -->
+            <main class="products-container">
+                <div class="category-title">
+                    <h2>Product Gallery</h2>
+                </div>
+                
+                <div class="product-grid">
+                    <!-- Electronics Products -->
+                    <div class="product-card electronics">
+                        <img src="Assets/Web design 101.jfif" alt="Wireless Headphones" class="product-image">
+                        <h3 class="product-title">Wireless Headphones</h3>
+                        <p class="product-price">$199</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card electronics">
+                        <img src="Assets/smartwatch pro.jfif" class="product-image">
+                        <h3 class="product-title">Smartwatch Pro</h3>
+                        <p class="product-price">$299</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card electronics">
+                        <img src="Assets/Gaming laptop.jfif" alt="Gaming Laptop" class="product-image">
+                        <h3 class="product-title">Gaming Laptop</h3>
+                        <p class="product-price">$1,299</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card electronics">
+                        <img src="Assets/Smartphone X.jfif" alt="Smartphone" class="product-image">
+                        <h3 class="product-title">Smartphone X</h3>
+                        <p class="product-price">$899</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <!-- Clothing Products -->
+                    <div class="product-card clothing">
+                        <img src="Assets/Cotton Tshirt.jfif" alt="Cotton T-Shirt" class="product-image">
+                        <h3 class="product-title">Cotton T-Shirt</h3>
+                        <p class="product-price">$29</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card clothing">
+                        <img src="Assets/Denim Jeans.jfif" alt="Denim Jeans" class="product-image">
+                        <h3 class="product-title">Denim Jeans</h3>
+                        <p class="product-price">$79</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card clothing">
+                        <img src="Assets/Leather Jacket.jfif" alt="Leather Jacket" class="product-image">
+                        <h3 class="product-title">Leather Jacket</h3>
+                        <p class="product-price">$199</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card clothing">
+                        <img src="Assets/Running Sneakers.jfif" alt="Running Sneakers" class="product-image">
+                        <h3 class="product-title">Running Sneakers</h3>
+                        <p class="product-price">$89</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <!-- Books Products -->
+                    <div class="product-card books">
+                        <img src="Assets/Web design 101.jfif" alt="Web Design Book" class="product-image">
+                        <h3 class="product-title">Web Design 101</h3>
+                        <p class="product-price">$39</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card books">
+                        <img src="Assets/JavaScript Guide.jfif" alt="JavaScript Guide" class="product-image">
+                        <h3 class="product-title">JavaScript Guide</h3>
+                        <p class="product-price">$49</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card books">
+                        <img src="Assets/CSS Mastery.jfif" alt="CSS Mastery" class="product-image">
+                        <h3 class="product-title">CSS Mastery</h3>
+                        <p class="product-price">$44</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card books">
+                        <img src="Assets/React Handbook.png" alt="React Handbook" class="product-image">
+                        <h3 class="product-title">React Handbook</h3>
+                        <p class="product-price">$54</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
